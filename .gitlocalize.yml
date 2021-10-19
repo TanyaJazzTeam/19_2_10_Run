@@ -3,3 +3,4 @@ pretranslate:
   - source: .
     include:
       - "07_1_09.md"
+      - "advanced_autodiff-checkpoint.ipynb"
