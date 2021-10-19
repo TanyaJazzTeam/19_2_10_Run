@@ -2,5 +2,8 @@ pretranslate:
   paths:
   - source: .
     include:
-      - "07_1_09.md"
-      - "advanced_autodiff-checkpoint.ipynb"
+      - "*"
+    exclude:
+      - "06.09.json"
+     
+    
