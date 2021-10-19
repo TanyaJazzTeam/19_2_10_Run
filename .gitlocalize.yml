@@ -1,9 +1,14 @@
 pretranslate:
-  paths:
-  - source: .
-    include:
-      - "*"
-    exclude:
-      - "06.09.json"
-     
+  segments:
+    ignore_frontmatter_keys:
+    - "layout"
+    - "title"
+    - "description"
+    - "hero"
+    - "authors"
+    - "date"
+    - "updated"
+    - "tags"
+    
+    
     
